@@ -64,6 +64,10 @@ a{
     align-items: center;
 }
 
+h2{
+    font-size: 30px;
+}
+
 .card-contents{
     display: flex;
     align-items: center;
@@ -81,6 +85,16 @@ a{
     font-weight: bold;
 }
 
+.bn{
+    border-bottom: 1px black solid;
+    height: 205px;
+    width: 320px;
+}
+
+.bb{
+    height:205px;
+    width: 320px;
+}
 .textvideo{
     font-size: 20px;
     margin-left: 27px;
@@ -102,21 +116,17 @@ a{
     text-align: center;
     font-weight: bold;
 }
-
-.texto{
-    margin: 65px;
-}
-
 .texto0{
-    margin: 45px;
+    margin-top: 20px;
 }
 
 p{
     margin: 15px;
+    color: black;
 }
 .sobre-section{
     background-color: rgb(50, 50, 121);
-    height: 78vh;
+    height: 80vh;
 }
 
 #elemento2{
@@ -242,7 +252,7 @@ textarea{
 }
 
 .saibamais-section{
-    background-color: #078;
+    background-color: #669999;
     height: 65vh;
     padding: 15px;
 }
